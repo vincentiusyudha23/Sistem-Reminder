@@ -2,7 +2,7 @@
 
 Menggunakan Framework
 - React.js (FrontEnd)
-- React Bootstrap (FrontEnd)
+- React Bootstrap & Material UI (FrontEnd)
 - Node.js/Express.js (BackEnd)
 
 Pertama-tama yang harus dilakukan :

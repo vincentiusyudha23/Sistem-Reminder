@@ -1,0 +1,34 @@
+GET http://localhost:5000/reminder
+
+###
+GET http://localhost:5000/reminder/1
+
+###
+POST http://localhost:5000/reminder
+Content-Type: application/json
+
+{
+    "tanggal": "2023-05-14"
+}
+
+###
+POST http://localhost:5000/listnotes
+Content-Type: application/json
+
+{
+    "waktu": "12:30",
+    "notes":"Sikat Gigi",
+    "reminderid":1
+}
+
+
+###
+PATCH  http://localhost:5000/reminder/1
+Content-Type: application/json
+
+{
+    "Tanggal": "2023-05-10"
+}
+
+###
+DELETE http://localhost:5000/reminder/7
